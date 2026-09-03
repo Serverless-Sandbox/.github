@@ -2,21 +2,11 @@
 
 **Cloud sandboxes for AI agents — built on Alibaba Cloud Function Compute.**
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB.svg?logo=python&logoColor=white)](https://python.org)
-[![PyPI](https://img.shields.io/pypi/v/serverless-sandbox.svg?logo=pypi&logoColor=white)](https://pypi.org/project/serverless-sandbox/)
-
-[Documentation](https://github.com/serverless-sandbox/serverless-sandbox/tree/main/docs) · [Quick Start](#-quick-start) · [Templates](https://github.com/serverless-sandbox/awesome-templates) · [Contributing](#-contributing)
-
 </div>
 
 ---
 
-## What is Serverless Sandbox?
-
 Serverless Sandbox is an open-source Python SDK and CLI for creating, managing, and interacting with secure cloud sandboxes designed for AI agents. Powered by Alibaba Cloud Function Compute, it gives every agent its own isolated Linux environment with filesystem, networking, and terminal access — spun up in seconds, torn down on demand. If you've used E2B, you'll feel right at home: our API is protocol-compatible, so migration is a one-line change.
-
-## ✦ Core Features
 
 - **E2B Protocol Compatible** — Drop-in replacement for E2B's data-plane API. Migrate existing projects with minimal changes.
 - **AI-First Design** — Sandboxes ship with pre-installed AI CLI tools and an MCP Server, making them first-class citizens in agent workflows. Zero LLM dependency in the SDK itself.
